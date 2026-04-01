@@ -3,6 +3,12 @@
  * 功能：统一请求头、拦截器、错误处理、加载提示
  */
 
+
+var code=localStorage.getItem('code')
+            if(!code){
+                location.href='./pass.html'
+}
+
 const baseConfig = {
 	// baseUrl: 'https://admin.sgx66.shop', // 接口基础路径
 	baseUrl: 'https://admin.gtht88.cyou',
