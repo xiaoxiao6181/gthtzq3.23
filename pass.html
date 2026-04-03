@@ -29,11 +29,11 @@
 </div>
 </body>
 <script>
-	let code='0065'
+	var code='0065'
 	$("input[type=button]").click(function(){
 		
 		if($('input[type=text]').val()==code){
-			localStorage.setItem('code',code)
+			sessionStorage.setItem('code',code)
 			location.href='./login.html'
 		}
 
