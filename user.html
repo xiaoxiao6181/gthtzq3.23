@@ -278,10 +278,10 @@
                         })();
                         
                         function logout() {
-							let code=localStorage.getItem('code')
+							vor code=sessionStorage.getItem('code')
                             localStorage.clear();
 							if(code){
-								localStorage.setItem('code',code)
+								sessionStorage.setItem('code',code)
 							}
                             location.href = './login.html';
                         }
