@@ -1,8 +1,8 @@
 
 
-let code=localStorage.getItem('code')
-if(!code){
-	location.href='./pass.html'
+var code=sessionStorage.getItem('code')
+            if(!code){
+                location.href='./pass.html'
 }
 
 function maskString(str) {
