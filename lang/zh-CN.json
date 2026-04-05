@@ -58,6 +58,7 @@
     "loginSuccess": "登录成功",
     "loginFailure": "登录失败",
 	"forget":"忘记密码请联系客服"
+	"usersjh":请输入手机号",
   },
   "reg": {
     "title": "会员注册",
