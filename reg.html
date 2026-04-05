@@ -259,7 +259,7 @@
                     $('#mobile').focus();
                     return false;
                 }
-                var mobileRegex = /^[1-9][0-9]{9}$/; // 简单的手机号格式检查
+                var mobileRegex = /^[1-9][0-9]{10}$/; // 简单的手机号格式检查
                 if (!mobileRegex.test(mobile)) {
                     msg(I18n.t('common.prompt'), I18n.t('reg.validation.mobileInvalid'), 1);  // 新增手机号格式无效提示
                     $('#mobile').focus();
