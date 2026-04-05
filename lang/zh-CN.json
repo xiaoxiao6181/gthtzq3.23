@@ -57,7 +57,7 @@
     "passwordError": "密码有误请重试",
     "loginSuccess": "登录成功",
     "loginFailure": "登录失败",
-	"forget":"忘记密码请联系客服"
+	"forget":"忘记密码请联系客服",
 	"usersjh":"请输入手机号"
   },
   "reg": {
